@@ -12,7 +12,11 @@
 
 @end
 
-@implementation ViewController
+@implementation ViewController {
+    
+    __weak IBOutlet UIButton *adventureButton;
+    __weak IBOutlet UIButton *historyButton;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -22,6 +26,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)startAdventureButtonPressed:(id)sender {
+    [self performSegueWithIdentifier:@"goToOptions" sender:@"Self"];
+}
+- (IBAction)viewHistoryButtonPressed:(id)sender {
+    NSLog(@"view history pressed");
 }
 
 @end

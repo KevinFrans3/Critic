@@ -14,6 +14,9 @@
 		FDF0EF251B5C7AB100F43490 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF0EF241B5C7AB100F43490 /* Images.xcassets */; };
 		FDF0EF281B5C7AB100F43490 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDF0EF261B5C7AB100F43490 /* LaunchScreen.xib */; };
 		FDF0EF341B5C7AB100F43490 /* CriticTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF0EF331B5C7AB100F43490 /* CriticTests.m */; };
+		FDF0EF3E1B5C7AF000F43490 /* MainScreenBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF0EF3D1B5C7AF000F43490 /* MainScreenBackGround.png */; };
+		FDF0EF401B5C7AF600F43490 /* OptionsBackGroundScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF0EF3F1B5C7AF600F43490 /* OptionsBackGroundScreen.png */; };
+		FDF0EF431B5C7BB200F43490 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF0EF421B5C7BB200F43490 /* OptionsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		FDF0EF2D1B5C7AB100F43490 /* CriticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CriticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF0EF321B5C7AB100F43490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDF0EF331B5C7AB100F43490 /* CriticTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CriticTests.m; sourceTree = "<group>"; };
+		FDF0EF3D1B5C7AF000F43490 /* MainScreenBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainScreenBackGround.png; sourceTree = "<group>"; };
+		FDF0EF3F1B5C7AF600F43490 /* OptionsBackGroundScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionsBackGroundScreen.png; sourceTree = "<group>"; };
+		FDF0EF411B5C7BB200F43490 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
+		FDF0EF421B5C7BB200F43490 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +93,8 @@
 				FDF0EF1E1B5C7AB100F43490 /* ViewController.h */,
 				FDF0EF1F1B5C7AB100F43490 /* ViewController.m */,
 				FDF0EF211B5C7AB100F43490 /* Main.storyboard */,
+				FDF0EF411B5C7BB200F43490 /* OptionsViewController.h */,
+				FDF0EF421B5C7BB200F43490 /* OptionsViewController.m */,
 				FDF0EF241B5C7AB100F43490 /* Images.xcassets */,
 				FDF0EF261B5C7AB100F43490 /* LaunchScreen.xib */,
 				FDF0EF171B5C7AB100F43490 /* Supporting Files */,
@@ -96,6 +105,8 @@
 		FDF0EF171B5C7AB100F43490 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FDF0EF3F1B5C7AF600F43490 /* OptionsBackGroundScreen.png */,
+				FDF0EF3D1B5C7AF000F43490 /* MainScreenBackGround.png */,
 				FDF0EF181B5C7AB100F43490 /* Info.plist */,
 				FDF0EF191B5C7AB100F43490 /* main.m */,
 			);
@@ -199,8 +210,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF0EF3E1B5C7AF000F43490 /* MainScreenBackGround.png in Resources */,
 				FDF0EF231B5C7AB100F43490 /* Main.storyboard in Resources */,
 				FDF0EF281B5C7AB100F43490 /* LaunchScreen.xib in Resources */,
+				FDF0EF401B5C7AF600F43490 /* OptionsBackGroundScreen.png in Resources */,
 				FDF0EF251B5C7AB100F43490 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDF0EF201B5C7AB100F43490 /* ViewController.m in Sources */,
+				FDF0EF431B5C7BB200F43490 /* OptionsViewController.m in Sources */,
 				FDF0EF1D1B5C7AB100F43490 /* AppDelegate.m in Sources */,
 				FDF0EF1A1B5C7AB100F43490 /* main.m in Sources */,
 			);
