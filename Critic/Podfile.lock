@@ -1,0 +1,16 @@
+PODS:
+  - BFPaperButton (2.0.18):
+    - UIColor+BFPaperColors
+  - OAuthConsumer (1.0.3)
+  - UIColor+BFPaperColors (1.7.1)
+
+DEPENDENCIES:
+  - BFPaperButton (~> 2.0.18)
+  - OAuthConsumer
+
+SPEC CHECKSUMS:
+  BFPaperButton: 16b3ec9c2964d24f89f623a4113321d3f003ed60
+  OAuthConsumer: 9e99725d1d58d076ed13e6010a2d74f82e25e4cc
+  UIColor+BFPaperColors: b1efa4320e2f56c4b14f73232faf967ba0e5b4a2
+
+COCOAPODS: 0.37.2

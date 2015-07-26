@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-Critic-BFPaperButton.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Critic-OAuthConsumer-OAuthConsumer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Critic-OAuthConsumer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Critic-UIColor+BFPaperColors.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Critic.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>205366875D2CF499A136876A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2FFC2AF1903DC5ACD10D4848</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69D57FB39359E9A10CB9A457</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6FC90F8E18E26C086C9979CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B288E5F073D66A47D0E7E4C5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,954 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006F387F7193AA944552E928 /* BFPaperButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B42DD20729E1A025F1F49058 /* BFPaperButton.h */; };
+		00826206CCC5CC89EEE7A0B8 /* NSMutableURLRequest+Parameters.h in Headers */ = {isa = PBXBuildFile; fileRef = F870870C1AACA391377E1305 /* NSMutableURLRequest+Parameters.h */; };
+		0133DA20E1667350AD43AFAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BFFB151E2D650F7CE96417 /* Foundation.framework */; };
+		06255FB376C294AE5A49A1A4 /* BFPaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 62558114B7118047B24DF7A9 /* BFPaperButton.m */; };
+		0EE8AC3EB1218E285C776852 /* OAConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3516A385D4672C33CB8997AC /* OAConsumer.h */; };
+		125E0C90FC52838D3DD5FF50 /* OATokenManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6366AB5F543CE4243DC8DEE7 /* OATokenManager.h */; };
+		1AE1D75A49B54799C800E1CA /* OAServiceTicket.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C424CDDC8C7A7C69FC8B30 /* OAServiceTicket.h */; };
+		1C2EFC2FB17D3064F208292F /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BFFEA4E88714383242DE524 /* hmac.h */; };
+		25B82C1B9C3F129E2C9B472F /* OAMutableURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = E4C97475B78CF1EF38D88F34 /* OAMutableURLRequest.h */; };
+		2623C0A197878C3BB054D56A /* OAHMAC_SHA1SignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EC424256818F0F523B403F /* OAHMAC_SHA1SignatureProvider.m */; };
+		26FD0F2DB1F5D777E4F82F9E /* UIColor+BFPaperColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CCB1290D46E87147F47FF8B /* UIColor+BFPaperColors.h */; };
+		2FB1C0D0179407A18B26774E /* OACall.h in Headers */ = {isa = PBXBuildFile; fileRef = C9259524D96F24AABAC9FF3D /* OACall.h */; };
+		34F67E53BF2FAE960791EC38 /* Pods-Critic-OAuthConsumer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F859987CACCF87805F647B4 /* Pods-Critic-OAuthConsumer-dummy.m */; };
+		39CD380A004B62D7E3B2C18B /* OACall.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EE278A678B13BADCA0A0EE /* OACall.m */; };
+		3CF768B6A24433ED425715F5 /* NSURL+Base.h in Headers */ = {isa = PBXBuildFile; fileRef = 777F3AD59120B389FFB74143 /* NSURL+Base.h */; };
+		4F7F07DB7822B27FDD175C1D /* OARequestParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FA91B8EADECD1667BF69AAE /* OARequestParameter.m */; };
+		515A1A199BDB09334DCFACB0 /* OAToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 3025DAA9530D34EB85804033 /* OAToken.h */; };
+		5F6FD4A814B0E5E419ECE02F /* OAAttachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9B6668D811D8BB60C53A5A /* OAAttachment.h */; };
+		622003B0F90E7F822E4CA07D /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E32204B05709F4AC6BC2DC /* sha1.h */; };
+		635E8ED154300031FC6F64B3 /* Pods-Critic-UIColor+BFPaperColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AFA33654E8D94616F3EF465 /* Pods-Critic-UIColor+BFPaperColors-dummy.m */; };
+		6DA5BBBC37B879F834B62293 /* OADataFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F8E756EF9B11B1274B388 /* OADataFetcher.m */; };
+		72DC5105318214C7EB0D3B91 /* OADataFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C1A114FBE01B1BDC07D670D0 /* OADataFetcher.h */; };
+		734B508222EB682CB2CE42D0 /* OAServiceTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = DC76D053B8DB7C74F0633B03 /* OAServiceTicket.m */; };
+		74E6CD22281167F947A0AB63 /* NSURL+Base.m in Sources */ = {isa = PBXBuildFile; fileRef = AA624B14414FE50A61C202FB /* NSURL+Base.m */; };
+		780EDAD735DEF1FF8ACCE3DE /* Base64Transcoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3132CACBFB2A76892821BE1B /* Base64Transcoder.h */; };
+		7FC822289A46271DF570D9E7 /* Pods-Critic-BFPaperButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA57080FFF15186BF403F88 /* Pods-Critic-BFPaperButton-dummy.m */; };
+		8073479E336E3B661D6B5758 /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B564CA3220DA3E4A6A693D5 /* sha1.c */; };
+		835ED790B2F3EF6EB162EEFB /* OAHMAC_SHA1SignatureProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A0ACEC01F326C89077EEDB /* OAHMAC_SHA1SignatureProvider.h */; };
+		9208845D9F9DB54FC2392F28 /* OAConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = A5CBEF277B201FEAAC8F70B3 /* OAConsumer.m */; };
+		9222516978507AF0BECAB04C /* OAToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C488B9951591C105F2508C5 /* OAToken.m */; };
+		A56A0D2FC9EC025CC3E27CC0 /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 7932C951D0FBA7B88643C200 /* NSString+URLEncoding.h */; };
+		A7E1D3C85E87FB25536713CC /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = E66B5AA9E8F1048986B89DB7 /* Base64Transcoder.c */; };
+		A8B1E7719691F033E1A80BE4 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = ACB808339201779EED764114 /* hmac.c */; };
+		AE7DD1B5D88AFDA3ADD75BAA /* OASignatureProviding.h in Headers */ = {isa = PBXBuildFile; fileRef = 25AD0C97C535FD0456945788 /* OASignatureProviding.h */; };
+		AF9A9BDF5AD060C1D22E4272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BFFB151E2D650F7CE96417 /* Foundation.framework */; };
+		B0CCE166165F50F468ECEB3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BFFB151E2D650F7CE96417 /* Foundation.framework */; };
+		B6F9ABE9297EE1296F0C7970 /* OARequestParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD50A539736B4700DD44B3D /* OARequestParameter.h */; };
+		BB122C996513350738AB1DB6 /* OAPlaintextSignatureProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C744F61DF2C798575479C7 /* OAPlaintextSignatureProvider.m */; };
+		BC60084C09AD3FDCC27CED82 /* OAPlaintextSignatureProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E2C424A2C83CCC8143BF96 /* OAPlaintextSignatureProvider.h */; };
+		C44604137A13A674602386CB /* NSMutableURLRequest+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 92386A353B6AA55C3DBAAB98 /* NSMutableURLRequest+Parameters.m */; };
+		C61F717709B1A55A2FD15EA5 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BADA1EDBAC555628629957 /* UIColor+BFPaperColors.m */; };
+		C9947AF862F0580086FBB394 /* Pods-Critic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CED2940DB2C60223C53D42C2 /* Pods-Critic-dummy.m */; };
+		CD4012A6D6BD4C3CD27EB8D1 /* OATokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F167EB67EBDB78D113C98 /* OATokenManager.m */; };
+		D0EF6716892FBEEE90EA9391 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 1E8AE7E999E8D4FE3F9DF30E /* LICENSE */; };
+		D524A9F90DEE530C3813005C /* OAProblem.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F213B4FAF07A7C1C6B77A4 /* OAProblem.m */; };
+		DBD5AEDFDF87D7BBF604E3FA /* OAuthConsumer.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 732FAF5A9015BDE816CD8A89 /* OAuthConsumer.podspec */; };
+		E24810B113E1D6718E0A1D3A /* OAProblem.h in Headers */ = {isa = PBXBuildFile; fileRef = 20FAB21472E3E2457F92D3D5 /* OAProblem.h */; };
+		E5731C338A655C05F67C4F39 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D73E4110037E2CAE1F9B058 /* NSString+URLEncoding.m */; };
+		E8D1B00BFE133E70C3962704 /* OAMutableURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2CAD80E0480C584DFEC704 /* OAMutableURLRequest.m */; };
+		EEE52FCF60905383A6EC1DF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0BFFB151E2D650F7CE96417 /* Foundation.framework */; };
+		F167398F149436DE093D7E7C /* OAAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF21999BBF28069A4D3B934 /* OAAttachment.m */; };
+		F4C1CCD4E2F48F9F5DA3AD3E /* OAuthConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = 67042F9B00A54D963DA21EB6 /* OAuthConsumer.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4106EA6547F6D5DEA45F717C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02B10B64FF7A182E6493607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69D57FB39359E9A10CB9A457;
+			remoteInfo = "Pods-Critic-OAuthConsumer-OAuthConsumer";
+		};
+		6C5509B4E920CC1DE2FFC376 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02B10B64FF7A182E6493607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FC90F8E18E26C086C9979CA;
+			remoteInfo = "Pods-Critic-UIColor+BFPaperColors";
+		};
+		97DD633721F30958795F5CDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02B10B64FF7A182E6493607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FC90F8E18E26C086C9979CA;
+			remoteInfo = "Pods-Critic-UIColor+BFPaperColors";
+		};
+		9BB705DC7CADF3CC238CF5C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02B10B64FF7A182E6493607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B288E5F073D66A47D0E7E4C5;
+			remoteInfo = "Pods-Critic-BFPaperButton";
+		};
+		FF6E0F512907DCD3E72C1BBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C02B10B64FF7A182E6493607 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FFC2AF1903DC5ACD10D4848;
+			remoteInfo = "Pods-Critic-OAuthConsumer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		046F167EB67EBDB78D113C98 /* OATokenManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OATokenManager.m; path = Classes/OATokenManager.m; sourceTree = "<group>"; };
+		04A0ACEC01F326C89077EEDB /* OAHMAC_SHA1SignatureProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAHMAC_SHA1SignatureProvider.h; path = Classes/OAHMAC_SHA1SignatureProvider.h; sourceTree = "<group>"; };
+		1A393A74A61FC45C7F898B75 /* libPods-Critic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Critic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E8AE7E999E8D4FE3F9DF30E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = Classes/LICENSE; sourceTree = "<group>"; };
+		20FAB21472E3E2457F92D3D5 /* OAProblem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAProblem.h; path = Classes/OAProblem.h; sourceTree = "<group>"; };
+		21F09DB4633EB9D78767A6FF /* OAuthConsumer.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OAuthConsumer.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		25AD0C97C535FD0456945788 /* OASignatureProviding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OASignatureProviding.h; path = Classes/OASignatureProviding.h; sourceTree = "<group>"; };
+		2D5F8E756EF9B11B1274B388 /* OADataFetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OADataFetcher.m; path = Classes/OADataFetcher.m; sourceTree = "<group>"; };
+		2E9B6668D811D8BB60C53A5A /* OAAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAAttachment.h; path = Classes/OAAttachment.h; sourceTree = "<group>"; };
+		2F823E2CFEC0B227875BCD41 /* Pods-Critic-BFPaperButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Critic-BFPaperButton-prefix.pch"; sourceTree = "<group>"; };
+		3025DAA9530D34EB85804033 /* OAToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAToken.h; path = Classes/OAToken.h; sourceTree = "<group>"; };
+		3132CACBFB2A76892821BE1B /* Base64Transcoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Base64Transcoder.h; path = Classes/Base64Transcoder.h; sourceTree = "<group>"; };
+		3516A385D4672C33CB8997AC /* OAConsumer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAConsumer.h; path = Classes/OAConsumer.h; sourceTree = "<group>"; };
+		3BFFEA4E88714383242DE524 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = Classes/hmac.h; sourceTree = "<group>"; };
+		3CCB1290D46E87147F47FF8B /* UIColor+BFPaperColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+BFPaperColors.h"; path = "UIColor+BFPaperColors/UIColor+BFPaperColors.h"; sourceTree = "<group>"; };
+		3F137545685EA1DA1E8E291A /* Pods-Critic-UIColor+BFPaperColors-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Critic-UIColor+BFPaperColors-Private.xcconfig"; sourceTree = "<group>"; };
+		43C744F61DF2C798575479C7 /* OAPlaintextSignatureProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAPlaintextSignatureProvider.m; path = Classes/OAPlaintextSignatureProvider.m; sourceTree = "<group>"; };
+		4472B9DD34810892A2E90AF2 /* Pods-Critic-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Critic-acknowledgements.plist"; sourceTree = "<group>"; };
+		47D58718CBE72B8FA0CD5CC9 /* Pods-Critic-OAuthConsumer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Critic-OAuthConsumer-Private.xcconfig"; sourceTree = "<group>"; };
+		4A9B362C70E4EDAFA66FD9CA /* Pods-Critic-UIColor+BFPaperColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Critic-UIColor+BFPaperColors-prefix.pch"; sourceTree = "<group>"; };
+		4AFA33654E8D94616F3EF465 /* Pods-Critic-UIColor+BFPaperColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Critic-UIColor+BFPaperColors-dummy.m"; sourceTree = "<group>"; };
+		4C488B9951591C105F2508C5 /* OAToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAToken.m; path = Classes/OAToken.m; sourceTree = "<group>"; };
+		4DB68EFF64E8D2C114FF5FCF /* Pods-Critic-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Critic-resources.sh"; sourceTree = "<group>"; };
+		4EFAE0FEFFA0423DDA4C8813 /* Pods-Critic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Critic-acknowledgements.markdown"; sourceTree = "<group>"; };
+		54EC424256818F0F523B403F /* OAHMAC_SHA1SignatureProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAHMAC_SHA1SignatureProvider.m; path = Classes/OAHMAC_SHA1SignatureProvider.m; sourceTree = "<group>"; };
+		54EE278A678B13BADCA0A0EE /* OACall.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OACall.m; path = Classes/OACall.m; sourceTree = "<group>"; };
+		55FCC1BC8CB7E2BAE442C84F /* libPods-Critic-UIColor+BFPaperColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Critic-UIColor+BFPaperColors.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57FB76EAA3B4502852081FC0 /* Pods-Critic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Critic.debug.xcconfig"; sourceTree = "<group>"; };
+		5FA91B8EADECD1667BF69AAE /* OARequestParameter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OARequestParameter.m; path = Classes/OARequestParameter.m; sourceTree = "<group>"; };
+		62558114B7118047B24DF7A9 /* BFPaperButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFPaperButton.m; path = Classes/BFPaperButton.m; sourceTree = "<group>"; };
+		6366AB5F543CE4243DC8DEE7 /* OATokenManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OATokenManager.h; path = Classes/OATokenManager.h; sourceTree = "<group>"; };
+		67042F9B00A54D963DA21EB6 /* OAuthConsumer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAuthConsumer.h; path = Classes/OAuthConsumer.h; sourceTree = "<group>"; };
+		6CF21999BBF28069A4D3B934 /* OAAttachment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAAttachment.m; path = Classes/OAAttachment.m; sourceTree = "<group>"; };
+		6D73E4110037E2CAE1F9B058 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLEncoding.m"; path = "Classes/NSString+URLEncoding.m"; sourceTree = "<group>"; };
+		732FAF5A9015BDE816CD8A89 /* OAuthConsumer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OAuthConsumer.podspec; path = Classes/OAuthConsumer.podspec; sourceTree = "<group>"; };
+		777F3AD59120B389FFB74143 /* NSURL+Base.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+Base.h"; path = "Classes/NSURL+Base.h"; sourceTree = "<group>"; };
+		7932C951D0FBA7B88643C200 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+URLEncoding.h"; path = "Classes/NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		7B564CA3220DA3E4A6A693D5 /* sha1.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = sha1.c; path = Classes/sha1.c; sourceTree = "<group>"; };
+		8311664F9134C7BC02224E7D /* libPods-Critic-BFPaperButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Critic-BFPaperButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A23E86EC05595763CC97DE8 /* Pods-Critic-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Critic-environment.h"; sourceTree = "<group>"; };
+		8F2CAD80E0480C584DFEC704 /* OAMutableURLRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAMutableURLRequest.m; path = Classes/OAMutableURLRequest.m; sourceTree = "<group>"; };
+		8F859987CACCF87805F647B4 /* Pods-Critic-OAuthConsumer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Critic-OAuthConsumer-dummy.m"; sourceTree = "<group>"; };
+		92386A353B6AA55C3DBAAB98 /* NSMutableURLRequest+Parameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableURLRequest+Parameters.m"; path = "Classes/NSMutableURLRequest+Parameters.m"; sourceTree = "<group>"; };
+		A2C424CDDC8C7A7C69FC8B30 /* OAServiceTicket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAServiceTicket.h; path = Classes/OAServiceTicket.h; sourceTree = "<group>"; };
+		A5CBEF277B201FEAAC8F70B3 /* OAConsumer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAConsumer.m; path = Classes/OAConsumer.m; sourceTree = "<group>"; };
+		AA624B14414FE50A61C202FB /* NSURL+Base.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+Base.m"; path = "Classes/NSURL+Base.m"; sourceTree = "<group>"; };
+		ACB808339201779EED764114 /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = hmac.c; path = Classes/hmac.c; sourceTree = "<group>"; };
+		ACD50A539736B4700DD44B3D /* OARequestParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OARequestParameter.h; path = Classes/OARequestParameter.h; sourceTree = "<group>"; };
+		AED040CF3A718CA4317C066F /* Pods-Critic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Critic.release.xcconfig"; sourceTree = "<group>"; };
+		B3E2C424A2C83CCC8143BF96 /* OAPlaintextSignatureProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAPlaintextSignatureProvider.h; path = Classes/OAPlaintextSignatureProvider.h; sourceTree = "<group>"; };
+		B42DD20729E1A025F1F49058 /* BFPaperButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFPaperButton.h; path = Classes/BFPaperButton.h; sourceTree = "<group>"; };
+		B5D4CBCE94206D306B409621 /* Pods-Critic-BFPaperButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Critic-BFPaperButton.xcconfig"; sourceTree = "<group>"; };
+		B5E32204B05709F4AC6BC2DC /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = Classes/sha1.h; sourceTree = "<group>"; };
+		C1A114FBE01B1BDC07D670D0 /* OADataFetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OADataFetcher.h; path = Classes/OADataFetcher.h; sourceTree = "<group>"; };
+		C9259524D96F24AABAC9FF3D /* OACall.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OACall.h; path = Classes/OACall.h; sourceTree = "<group>"; };
+		CA4778A361E228B79C875794 /* Pods-Critic-OAuthConsumer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Critic-OAuthConsumer-prefix.pch"; sourceTree = "<group>"; };
+		CED2940DB2C60223C53D42C2 /* Pods-Critic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Critic-dummy.m"; sourceTree = "<group>"; };
+		D35457897F8E399391129AC2 /* Pods-Critic-UIColor+BFPaperColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Critic-UIColor+BFPaperColors.xcconfig"; sourceTree = "<group>"; };
+		D7BADA1EDBAC555628629957 /* UIColor+BFPaperColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BFPaperColors.m"; path = "UIColor+BFPaperColors/UIColor+BFPaperColors.m"; sourceTree = "<group>"; };
+		DC76D053B8DB7C74F0633B03 /* OAServiceTicket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAServiceTicket.m; path = Classes/OAServiceTicket.m; sourceTree = "<group>"; };
+		DFA57080FFF15186BF403F88 /* Pods-Critic-BFPaperButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Critic-BFPaperButton-dummy.m"; sourceTree = "<group>"; };
+		E0BFFB151E2D650F7CE96417 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E4C97475B78CF1EF38D88F34 /* OAMutableURLRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OAMutableURLRequest.h; path = Classes/OAMutableURLRequest.h; sourceTree = "<group>"; };
+		E66B5AA9E8F1048986B89DB7 /* Base64Transcoder.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = Base64Transcoder.c; path = Classes/Base64Transcoder.c; sourceTree = "<group>"; };
+		EDAFABC87B43BE818C55767A /* libPods-Critic-OAuthConsumer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Critic-OAuthConsumer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAF3B7E92ACDC7DE01DE221 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F41A41EBDCA7BF84832FDA75 /* Pods-Critic-BFPaperButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Critic-BFPaperButton-Private.xcconfig"; sourceTree = "<group>"; };
+		F6F213B4FAF07A7C1C6B77A4 /* OAProblem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OAProblem.m; path = Classes/OAProblem.m; sourceTree = "<group>"; };
+		F870870C1AACA391377E1305 /* NSMutableURLRequest+Parameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableURLRequest+Parameters.h"; path = "Classes/NSMutableURLRequest+Parameters.h"; sourceTree = "<group>"; };
+		F93570C687DAC54B0CB5CE9C /* Pods-Critic-OAuthConsumer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Critic-OAuthConsumer.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11517B3663008AC4237F5D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0133DA20E1667350AD43AFAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		491C9DB88BF7D6C710C21150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67692D8C7F5F28D26D04046C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF9A9BDF5AD060C1D22E4272 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9190A2497DBF7C55D882613D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CCE166165F50F468ECEB3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3716F0E05A743AF9CEDF11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE52FCF60905383A6EC1DF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22EB6E637B4BA0B35A84A141 /* UIColor+BFPaperColors */ = {
+			isa = PBXGroup;
+			children = (
+				3CCB1290D46E87147F47FF8B /* UIColor+BFPaperColors.h */,
+				D7BADA1EDBAC555628629957 /* UIColor+BFPaperColors.m */,
+				BA0872627C7D127A5B7B87D4 /* Support Files */,
+			);
+			path = "UIColor+BFPaperColors";
+			sourceTree = "<group>";
+		};
+		30A87533AEBD74C5EEFD6370 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76253E9ABFED32BB194847D8 /* BFPaperButton */,
+				FB4CD02D7F4F1F6902A5DC99 /* OAuthConsumer */,
+				22EB6E637B4BA0B35A84A141 /* UIColor+BFPaperColors */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6460D29922952E768D9D6BFF = {
+			isa = PBXGroup;
+			children = (
+				EFAF3B7E92ACDC7DE01DE221 /* Podfile */,
+				BDB89C723AA2FF0C3E125FC3 /* Frameworks */,
+				30A87533AEBD74C5EEFD6370 /* Pods */,
+				BBE943D5E50EC2504C8055AC /* Products */,
+				7B1D4C201F9D3F654605CB4B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		76253E9ABFED32BB194847D8 /* BFPaperButton */ = {
+			isa = PBXGroup;
+			children = (
+				B42DD20729E1A025F1F49058 /* BFPaperButton.h */,
+				62558114B7118047B24DF7A9 /* BFPaperButton.m */,
+				ACA5480206D3FF8F5AF1BCA5 /* Support Files */,
+			);
+			path = BFPaperButton;
+			sourceTree = "<group>";
+		};
+		7B1D4C201F9D3F654605CB4B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3F160C156183A2A4F8D9D23 /* Pods-Critic */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A3F160C156183A2A4F8D9D23 /* Pods-Critic */ = {
+			isa = PBXGroup;
+			children = (
+				4EFAE0FEFFA0423DDA4C8813 /* Pods-Critic-acknowledgements.markdown */,
+				4472B9DD34810892A2E90AF2 /* Pods-Critic-acknowledgements.plist */,
+				CED2940DB2C60223C53D42C2 /* Pods-Critic-dummy.m */,
+				8A23E86EC05595763CC97DE8 /* Pods-Critic-environment.h */,
+				4DB68EFF64E8D2C114FF5FCF /* Pods-Critic-resources.sh */,
+				57FB76EAA3B4502852081FC0 /* Pods-Critic.debug.xcconfig */,
+				AED040CF3A718CA4317C066F /* Pods-Critic.release.xcconfig */,
+			);
+			name = "Pods-Critic";
+			path = "Target Support Files/Pods-Critic";
+			sourceTree = "<group>";
+		};
+		ACA5480206D3FF8F5AF1BCA5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5D4CBCE94206D306B409621 /* Pods-Critic-BFPaperButton.xcconfig */,
+				F41A41EBDCA7BF84832FDA75 /* Pods-Critic-BFPaperButton-Private.xcconfig */,
+				DFA57080FFF15186BF403F88 /* Pods-Critic-BFPaperButton-dummy.m */,
+				2F823E2CFEC0B227875BCD41 /* Pods-Critic-BFPaperButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Critic-BFPaperButton";
+			sourceTree = "<group>";
+		};
+		BA0872627C7D127A5B7B87D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D35457897F8E399391129AC2 /* Pods-Critic-UIColor+BFPaperColors.xcconfig */,
+				3F137545685EA1DA1E8E291A /* Pods-Critic-UIColor+BFPaperColors-Private.xcconfig */,
+				4AFA33654E8D94616F3EF465 /* Pods-Critic-UIColor+BFPaperColors-dummy.m */,
+				4A9B362C70E4EDAFA66FD9CA /* Pods-Critic-UIColor+BFPaperColors-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Critic-UIColor+BFPaperColors";
+			sourceTree = "<group>";
+		};
+		BBE943D5E50EC2504C8055AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21F09DB4633EB9D78767A6FF /* OAuthConsumer.bundle */,
+				1A393A74A61FC45C7F898B75 /* libPods-Critic.a */,
+				8311664F9134C7BC02224E7D /* libPods-Critic-BFPaperButton.a */,
+				EDAFABC87B43BE818C55767A /* libPods-Critic-OAuthConsumer.a */,
+				55FCC1BC8CB7E2BAE442C84F /* libPods-Critic-UIColor+BFPaperColors.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB89C723AA2FF0C3E125FC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1B3509CDFD21B37266AFF38 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1B3509CDFD21B37266AFF38 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E0BFFB151E2D650F7CE96417 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F2FC22C040093B3E1D5A9916 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F93570C687DAC54B0CB5CE9C /* Pods-Critic-OAuthConsumer.xcconfig */,
+				47D58718CBE72B8FA0CD5CC9 /* Pods-Critic-OAuthConsumer-Private.xcconfig */,
+				8F859987CACCF87805F647B4 /* Pods-Critic-OAuthConsumer-dummy.m */,
+				CA4778A361E228B79C875794 /* Pods-Critic-OAuthConsumer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Critic-OAuthConsumer";
+			sourceTree = "<group>";
+		};
+		FB4CD02D7F4F1F6902A5DC99 /* OAuthConsumer */ = {
+			isa = PBXGroup;
+			children = (
+				E66B5AA9E8F1048986B89DB7 /* Base64Transcoder.c */,
+				3132CACBFB2A76892821BE1B /* Base64Transcoder.h */,
+				1E8AE7E999E8D4FE3F9DF30E /* LICENSE */,
+				F870870C1AACA391377E1305 /* NSMutableURLRequest+Parameters.h */,
+				92386A353B6AA55C3DBAAB98 /* NSMutableURLRequest+Parameters.m */,
+				7932C951D0FBA7B88643C200 /* NSString+URLEncoding.h */,
+				6D73E4110037E2CAE1F9B058 /* NSString+URLEncoding.m */,
+				777F3AD59120B389FFB74143 /* NSURL+Base.h */,
+				AA624B14414FE50A61C202FB /* NSURL+Base.m */,
+				2E9B6668D811D8BB60C53A5A /* OAAttachment.h */,
+				6CF21999BBF28069A4D3B934 /* OAAttachment.m */,
+				C9259524D96F24AABAC9FF3D /* OACall.h */,
+				54EE278A678B13BADCA0A0EE /* OACall.m */,
+				3516A385D4672C33CB8997AC /* OAConsumer.h */,
+				A5CBEF277B201FEAAC8F70B3 /* OAConsumer.m */,
+				C1A114FBE01B1BDC07D670D0 /* OADataFetcher.h */,
+				2D5F8E756EF9B11B1274B388 /* OADataFetcher.m */,
+				04A0ACEC01F326C89077EEDB /* OAHMAC_SHA1SignatureProvider.h */,
+				54EC424256818F0F523B403F /* OAHMAC_SHA1SignatureProvider.m */,
+				E4C97475B78CF1EF38D88F34 /* OAMutableURLRequest.h */,
+				8F2CAD80E0480C584DFEC704 /* OAMutableURLRequest.m */,
+				B3E2C424A2C83CCC8143BF96 /* OAPlaintextSignatureProvider.h */,
+				43C744F61DF2C798575479C7 /* OAPlaintextSignatureProvider.m */,
+				20FAB21472E3E2457F92D3D5 /* OAProblem.h */,
+				F6F213B4FAF07A7C1C6B77A4 /* OAProblem.m */,
+				ACD50A539736B4700DD44B3D /* OARequestParameter.h */,
+				5FA91B8EADECD1667BF69AAE /* OARequestParameter.m */,
+				A2C424CDDC8C7A7C69FC8B30 /* OAServiceTicket.h */,
+				DC76D053B8DB7C74F0633B03 /* OAServiceTicket.m */,
+				25AD0C97C535FD0456945788 /* OASignatureProviding.h */,
+				3025DAA9530D34EB85804033 /* OAToken.h */,
+				4C488B9951591C105F2508C5 /* OAToken.m */,
+				6366AB5F543CE4243DC8DEE7 /* OATokenManager.h */,
+				046F167EB67EBDB78D113C98 /* OATokenManager.m */,
+				67042F9B00A54D963DA21EB6 /* OAuthConsumer.h */,
+				732FAF5A9015BDE816CD8A89 /* OAuthConsumer.podspec */,
+				ACB808339201779EED764114 /* hmac.c */,
+				3BFFEA4E88714383242DE524 /* hmac.h */,
+				7B564CA3220DA3E4A6A693D5 /* sha1.c */,
+				B5E32204B05709F4AC6BC2DC /* sha1.h */,
+				F2FC22C040093B3E1D5A9916 /* Support Files */,
+			);
+			path = OAuthConsumer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9298F5E723AE48B839367B19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FD0F2DB1F5D777E4F82F9E /* UIColor+BFPaperColors.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953E067DF55060C940E52D8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780EDAD735DEF1FF8ACCE3DE /* Base64Transcoder.h in Headers */,
+				00826206CCC5CC89EEE7A0B8 /* NSMutableURLRequest+Parameters.h in Headers */,
+				A56A0D2FC9EC025CC3E27CC0 /* NSString+URLEncoding.h in Headers */,
+				3CF768B6A24433ED425715F5 /* NSURL+Base.h in Headers */,
+				5F6FD4A814B0E5E419ECE02F /* OAAttachment.h in Headers */,
+				2FB1C0D0179407A18B26774E /* OACall.h in Headers */,
+				0EE8AC3EB1218E285C776852 /* OAConsumer.h in Headers */,
+				72DC5105318214C7EB0D3B91 /* OADataFetcher.h in Headers */,
+				835ED790B2F3EF6EB162EEFB /* OAHMAC_SHA1SignatureProvider.h in Headers */,
+				25B82C1B9C3F129E2C9B472F /* OAMutableURLRequest.h in Headers */,
+				BC60084C09AD3FDCC27CED82 /* OAPlaintextSignatureProvider.h in Headers */,
+				E24810B113E1D6718E0A1D3A /* OAProblem.h in Headers */,
+				B6F9ABE9297EE1296F0C7970 /* OARequestParameter.h in Headers */,
+				1AE1D75A49B54799C800E1CA /* OAServiceTicket.h in Headers */,
+				AE7DD1B5D88AFDA3ADD75BAA /* OASignatureProviding.h in Headers */,
+				515A1A199BDB09334DCFACB0 /* OAToken.h in Headers */,
+				125E0C90FC52838D3DD5FF50 /* OATokenManager.h in Headers */,
+				F4C1CCD4E2F48F9F5DA3AD3E /* OAuthConsumer.h in Headers */,
+				1C2EFC2FB17D3064F208292F /* hmac.h in Headers */,
+				622003B0F90E7F822E4CA07D /* sha1.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE5D25241516BB5441FFED05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006F387F7193AA944552E928 /* BFPaperButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		205366875D2CF499A136876A /* Pods-Critic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E4220A2E9CE1FEE15C70B3 /* Build configuration list for PBXNativeTarget "Pods-Critic" */;
+			buildPhases = (
+				70BEE08519B4C0D95BC42BF9 /* Sources */,
+				67692D8C7F5F28D26D04046C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04FAA5A3538CE8F3CEDE389 /* PBXTargetDependency */,
+				AA503C58CCB11E0510B1E18E /* PBXTargetDependency */,
+				778F6DFF46ECD3F2EE814E65 /* PBXTargetDependency */,
+			);
+			name = "Pods-Critic";
+			productName = "Pods-Critic";
+			productReference = 1A393A74A61FC45C7F898B75 /* libPods-Critic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2FFC2AF1903DC5ACD10D4848 /* Pods-Critic-OAuthConsumer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B5EC3D1D07AA57E2245902 /* Build configuration list for PBXNativeTarget "Pods-Critic-OAuthConsumer" */;
+			buildPhases = (
+				0E943E2B892CFA55AA11CBD4 /* Sources */,
+				9190A2497DBF7C55D882613D /* Frameworks */,
+				953E067DF55060C940E52D8C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C5C65A725F6A4C85BF6C7DA /* PBXTargetDependency */,
+			);
+			name = "Pods-Critic-OAuthConsumer";
+			productName = "Pods-Critic-OAuthConsumer";
+			productReference = EDAFABC87B43BE818C55767A /* libPods-Critic-OAuthConsumer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		69D57FB39359E9A10CB9A457 /* Pods-Critic-OAuthConsumer-OAuthConsumer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516F583A921746DE1E359E79 /* Build configuration list for PBXNativeTarget "Pods-Critic-OAuthConsumer-OAuthConsumer" */;
+			buildPhases = (
+				3B3FD4D280B03166D19B5CF4 /* Sources */,
+				491C9DB88BF7D6C710C21150 /* Frameworks */,
+				E033162D828F8EB44B1B5D19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Critic-OAuthConsumer-OAuthConsumer";
+			productName = "Pods-Critic-OAuthConsumer-OAuthConsumer";
+			productReference = 21F09DB4633EB9D78767A6FF /* OAuthConsumer.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6FC90F8E18E26C086C9979CA /* Pods-Critic-UIColor+BFPaperColors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C932A09216A19DB1A5B57296 /* Build configuration list for PBXNativeTarget "Pods-Critic-UIColor+BFPaperColors" */;
+			buildPhases = (
+				1B879F7C2AA551317D947F03 /* Sources */,
+				11517B3663008AC4237F5D96 /* Frameworks */,
+				9298F5E723AE48B839367B19 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Critic-UIColor+BFPaperColors";
+			productName = "Pods-Critic-UIColor+BFPaperColors";
+			productReference = 55FCC1BC8CB7E2BAE442C84F /* libPods-Critic-UIColor+BFPaperColors.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B288E5F073D66A47D0E7E4C5 /* Pods-Critic-BFPaperButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38434908465D6675D6674A8A /* Build configuration list for PBXNativeTarget "Pods-Critic-BFPaperButton" */;
+			buildPhases = (
+				B641FE7200CA490F108D6F4D /* Sources */,
+				DB3716F0E05A743AF9CEDF11 /* Frameworks */,
+				AE5D25241516BB5441FFED05 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF7710F8527084882724EA7E /* PBXTargetDependency */,
+			);
+			name = "Pods-Critic-BFPaperButton";
+			productName = "Pods-Critic-BFPaperButton";
+			productReference = 8311664F9134C7BC02224E7D /* libPods-Critic-BFPaperButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C02B10B64FF7A182E6493607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 2327E3BE3976666E9400274A /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6460D29922952E768D9D6BFF;
+			productRefGroup = BBE943D5E50EC2504C8055AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				205366875D2CF499A136876A /* Pods-Critic */,
+				B288E5F073D66A47D0E7E4C5 /* Pods-Critic-BFPaperButton */,
+				2FFC2AF1903DC5ACD10D4848 /* Pods-Critic-OAuthConsumer */,
+				69D57FB39359E9A10CB9A457 /* Pods-Critic-OAuthConsumer-OAuthConsumer */,
+				6FC90F8E18E26C086C9979CA /* Pods-Critic-UIColor+BFPaperColors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E033162D828F8EB44B1B5D19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E943E2B892CFA55AA11CBD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E1D3C85E87FB25536713CC /* Base64Transcoder.c in Sources */,
+				D0EF6716892FBEEE90EA9391 /* LICENSE in Sources */,
+				C44604137A13A674602386CB /* NSMutableURLRequest+Parameters.m in Sources */,
+				E5731C338A655C05F67C4F39 /* NSString+URLEncoding.m in Sources */,
+				74E6CD22281167F947A0AB63 /* NSURL+Base.m in Sources */,
+				F167398F149436DE093D7E7C /* OAAttachment.m in Sources */,
+				39CD380A004B62D7E3B2C18B /* OACall.m in Sources */,
+				9208845D9F9DB54FC2392F28 /* OAConsumer.m in Sources */,
+				6DA5BBBC37B879F834B62293 /* OADataFetcher.m in Sources */,
+				2623C0A197878C3BB054D56A /* OAHMAC_SHA1SignatureProvider.m in Sources */,
+				E8D1B00BFE133E70C3962704 /* OAMutableURLRequest.m in Sources */,
+				BB122C996513350738AB1DB6 /* OAPlaintextSignatureProvider.m in Sources */,
+				D524A9F90DEE530C3813005C /* OAProblem.m in Sources */,
+				4F7F07DB7822B27FDD175C1D /* OARequestParameter.m in Sources */,
+				734B508222EB682CB2CE42D0 /* OAServiceTicket.m in Sources */,
+				9222516978507AF0BECAB04C /* OAToken.m in Sources */,
+				CD4012A6D6BD4C3CD27EB8D1 /* OATokenManager.m in Sources */,
+				DBD5AEDFDF87D7BBF604E3FA /* OAuthConsumer.podspec in Sources */,
+				34F67E53BF2FAE960791EC38 /* Pods-Critic-OAuthConsumer-dummy.m in Sources */,
+				A8B1E7719691F033E1A80BE4 /* hmac.c in Sources */,
+				8073479E336E3B661D6B5758 /* sha1.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B879F7C2AA551317D947F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635E8ED154300031FC6F64B3 /* Pods-Critic-UIColor+BFPaperColors-dummy.m in Sources */,
+				C61F717709B1A55A2FD15EA5 /* UIColor+BFPaperColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3FD4D280B03166D19B5CF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BEE08519B4C0D95BC42BF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9947AF862F0580086FBB394 /* Pods-Critic-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B641FE7200CA490F108D6F4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06255FB376C294AE5A49A1A4 /* BFPaperButton.m in Sources */,
+				7FC822289A46271DF570D9E7 /* Pods-Critic-BFPaperButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		778F6DFF46ECD3F2EE814E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Critic-UIColor+BFPaperColors";
+			target = 6FC90F8E18E26C086C9979CA /* Pods-Critic-UIColor+BFPaperColors */;
+			targetProxy = 6C5509B4E920CC1DE2FFC376 /* PBXContainerItemProxy */;
+		};
+		7C5C65A725F6A4C85BF6C7DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Critic-OAuthConsumer-OAuthConsumer";
+			target = 69D57FB39359E9A10CB9A457 /* Pods-Critic-OAuthConsumer-OAuthConsumer */;
+			targetProxy = 4106EA6547F6D5DEA45F717C /* PBXContainerItemProxy */;
+		};
+		AA503C58CCB11E0510B1E18E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Critic-OAuthConsumer";
+			target = 2FFC2AF1903DC5ACD10D4848 /* Pods-Critic-OAuthConsumer */;
+			targetProxy = FF6E0F512907DCD3E72C1BBF /* PBXContainerItemProxy */;
+		};
+		B04FAA5A3538CE8F3CEDE389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Critic-BFPaperButton";
+			target = B288E5F073D66A47D0E7E4C5 /* Pods-Critic-BFPaperButton */;
+			targetProxy = 9BB705DC7CADF3CC238CF5C9 /* PBXContainerItemProxy */;
+		};
+		BF7710F8527084882724EA7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Critic-UIColor+BFPaperColors";
+			target = 6FC90F8E18E26C086C9979CA /* Pods-Critic-UIColor+BFPaperColors */;
+			targetProxy = 97DD633721F30958795F5CDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AF20D0B7EBFC3FD900DB459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57FB76EAA3B4502852081FC0 /* Pods-Critic.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		43A7BF21CC8588D659B67910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		545B53F66C63A50D701B8E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		77851B77FCF7333031039CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F137545685EA1DA1E8E291A /* Pods-Critic-UIColor+BFPaperColors-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Critic-UIColor+BFPaperColors/Pods-Critic-UIColor+BFPaperColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7EE3F656DE4F0A088992D450 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D58718CBE72B8FA0CD5CC9 /* Pods-Critic-OAuthConsumer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = OAuthConsumer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9D10BB18A2761207ED9557C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D58718CBE72B8FA0CD5CC9 /* Pods-Critic-OAuthConsumer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Critic-OAuthConsumer/Pods-Critic-OAuthConsumer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A23E0DC370B8D5702EBBBD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41A41EBDCA7BF84832FDA75 /* Pods-Critic-BFPaperButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Critic-BFPaperButton/Pods-Critic-BFPaperButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AE3D3C93CC41BB7E960E0B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D58718CBE72B8FA0CD5CC9 /* Pods-Critic-OAuthConsumer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Critic-OAuthConsumer/Pods-Critic-OAuthConsumer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BA1BC810BF1DB6F09D25831B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D58718CBE72B8FA0CD5CC9 /* Pods-Critic-OAuthConsumer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = OAuthConsumer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C40F156DA1663D157876416C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41A41EBDCA7BF84832FDA75 /* Pods-Critic-BFPaperButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Critic-BFPaperButton/Pods-Critic-BFPaperButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CAC3141741D5DB01D80B7370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AED040CF3A718CA4317C066F /* Pods-Critic.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CDFE99139427982C01495D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F137545685EA1DA1E8E291A /* Pods-Critic-UIColor+BFPaperColors-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Critic-UIColor+BFPaperColors/Pods-Critic-UIColor+BFPaperColors-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2327E3BE3976666E9400274A /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545B53F66C63A50D701B8E63 /* Debug */,
+				43A7BF21CC8588D659B67910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38434908465D6675D6674A8A /* Build configuration list for PBXNativeTarget "Pods-Critic-BFPaperButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23E0DC370B8D5702EBBBD34 /* Debug */,
+				C40F156DA1663D157876416C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516F583A921746DE1E359E79 /* Build configuration list for PBXNativeTarget "Pods-Critic-OAuthConsumer-OAuthConsumer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA1BC810BF1DB6F09D25831B /* Debug */,
+				7EE3F656DE4F0A088992D450 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B5EC3D1D07AA57E2245902 /* Build configuration list for PBXNativeTarget "Pods-Critic-OAuthConsumer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D10BB18A2761207ED9557C9 /* Debug */,
+				AE3D3C93CC41BB7E960E0B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C932A09216A19DB1A5B57296 /* Build configuration list for PBXNativeTarget "Pods-Critic-UIColor+BFPaperColors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDFE99139427982C01495D81 /* Debug */,
+				77851B77FCF7333031039CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E4220A2E9CE1FEE15C70B3 /* Build configuration list for PBXNativeTarget "Pods-Critic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AF20D0B7EBFC3FD900DB459 /* Debug */,
+				CAC3141741D5DB01D80B7370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C02B10B64FF7A182E6493607 /* Project object */;
+}

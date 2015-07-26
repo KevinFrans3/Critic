@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1036BFFB457B381B8F035BA6 /* libPods-Critic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 253E64A1968409AA5B3239A4 /* libPods-Critic.a */; };
+		FDE19C9F1B649B2D001F8378 /* CheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE19C9E1B649B2D001F8378 /* CheckViewController.m */; };
+		FDE19CA11B649FDF001F8378 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE19CA01B649FDF001F8378 /* MapKit.framework */; };
 		FDF0EF1A1B5C7AB100F43490 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF0EF191B5C7AB100F43490 /* main.m */; };
 		FDF0EF1D1B5C7AB100F43490 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF0EF1C1B5C7AB100F43490 /* AppDelegate.m */; };
 		FDF0EF201B5C7AB100F43490 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF0EF1F1B5C7AB100F43490 /* ViewController.m */; };
@@ -17,6 +20,9 @@
 		FDF0EF3E1B5C7AF000F43490 /* MainScreenBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF0EF3D1B5C7AF000F43490 /* MainScreenBackGround.png */; };
 		FDF0EF401B5C7AF600F43490 /* OptionsBackGroundScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF0EF3F1B5C7AF600F43490 /* OptionsBackGroundScreen.png */; };
 		FDF0EF431B5C7BB200F43490 /* OptionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF0EF421B5C7BB200F43490 /* OptionsViewController.m */; };
+		FDF0EF461B5C84A900F43490 /* AdventureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF0EF451B5C84A900F43490 /* AdventureViewController.m */; };
+		FDF0EF491B5C850200F43490 /* AppCommunicate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF0EF481B5C850200F43490 /* AppCommunicate.m */; };
+		FDF0EF4B1B5CA45000F43490 /* AdventureBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF0EF4A1B5CA45000F43490 /* AdventureBackGround.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		253E64A1968409AA5B3239A4 /* libPods-Critic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Critic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B946B9BAAE0CDCE11E5F2474 /* Pods-Critic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Critic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Critic/Pods-Critic.debug.xcconfig"; sourceTree = "<group>"; };
+		F1FA51B25030BB86A938824C /* Pods-Critic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Critic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Critic/Pods-Critic.release.xcconfig"; sourceTree = "<group>"; };
+		FDE19C9D1B649B2D001F8378 /* CheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckViewController.h; sourceTree = "<group>"; };
+		FDE19C9E1B649B2D001F8378 /* CheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckViewController.m; sourceTree = "<group>"; };
+		FDE19CA01B649FDF001F8378 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		FDF0EF141B5C7AB100F43490 /* Critic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Critic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF0EF181B5C7AB100F43490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDF0EF191B5C7AB100F43490 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,6 +59,11 @@
 		FDF0EF3F1B5C7AF600F43490 /* OptionsBackGroundScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionsBackGroundScreen.png; sourceTree = "<group>"; };
 		FDF0EF411B5C7BB200F43490 /* OptionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsViewController.h; sourceTree = "<group>"; };
 		FDF0EF421B5C7BB200F43490 /* OptionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsViewController.m; sourceTree = "<group>"; };
+		FDF0EF441B5C84A900F43490 /* AdventureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdventureViewController.h; sourceTree = "<group>"; };
+		FDF0EF451B5C84A900F43490 /* AdventureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdventureViewController.m; sourceTree = "<group>"; };
+		FDF0EF471B5C850200F43490 /* AppCommunicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCommunicate.h; sourceTree = "<group>"; };
+		FDF0EF481B5C850200F43490 /* AppCommunicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppCommunicate.m; sourceTree = "<group>"; };
+		FDF0EF4A1B5CA45000F43490 /* AdventureBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AdventureBackGround.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDE19CA11B649FDF001F8378 /* MapKit.framework in Frameworks */,
+				1036BFFB457B381B8F035BA6 /* libPods-Critic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,12 +86,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		066786A20253ECB459A6B8D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDE19CA01B649FDF001F8378 /* MapKit.framework */,
+				253E64A1968409AA5B3239A4 /* libPods-Critic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		770BD31953FC8B7EE4B80AD0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B946B9BAAE0CDCE11E5F2474 /* Pods-Critic.debug.xcconfig */,
+				F1FA51B25030BB86A938824C /* Pods-Critic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FDF0EF0B1B5C7AB100F43490 = {
 			isa = PBXGroup;
 			children = (
 				FDF0EF161B5C7AB100F43490 /* Critic */,
 				FDF0EF301B5C7AB100F43490 /* CriticTests */,
 				FDF0EF151B5C7AB100F43490 /* Products */,
+				770BD31953FC8B7EE4B80AD0 /* Pods */,
+				066786A20253ECB459A6B8D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +132,12 @@
 				FDF0EF1E1B5C7AB100F43490 /* ViewController.h */,
 				FDF0EF1F1B5C7AB100F43490 /* ViewController.m */,
 				FDF0EF211B5C7AB100F43490 /* Main.storyboard */,
+				FDF0EF441B5C84A900F43490 /* AdventureViewController.h */,
+				FDF0EF451B5C84A900F43490 /* AdventureViewController.m */,
+				FDF0EF471B5C850200F43490 /* AppCommunicate.h */,
+				FDF0EF481B5C850200F43490 /* AppCommunicate.m */,
+				FDE19C9D1B649B2D001F8378 /* CheckViewController.h */,
+				FDE19C9E1B649B2D001F8378 /* CheckViewController.m */,
 				FDF0EF411B5C7BB200F43490 /* OptionsViewController.h */,
 				FDF0EF421B5C7BB200F43490 /* OptionsViewController.m */,
 				FDF0EF241B5C7AB100F43490 /* Images.xcassets */,
@@ -105,6 +150,7 @@
 		FDF0EF171B5C7AB100F43490 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FDF0EF4A1B5CA45000F43490 /* AdventureBackGround.png */,
 				FDF0EF3F1B5C7AF600F43490 /* OptionsBackGroundScreen.png */,
 				FDF0EF3D1B5C7AF000F43490 /* MainScreenBackGround.png */,
 				FDF0EF181B5C7AB100F43490 /* Info.plist */,
@@ -137,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDF0EF371B5C7AB100F43490 /* Build configuration list for PBXNativeTarget "Critic" */;
 			buildPhases = (
+				02C457ACACCC2A1D108854DB /* Check Pods Manifest.lock */,
 				FDF0EF101B5C7AB100F43490 /* Sources */,
 				FDF0EF111B5C7AB100F43490 /* Frameworks */,
 				FDF0EF121B5C7AB100F43490 /* Resources */,
+				5A33B7992AB81D23A09AEE29 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,6 +227,7 @@
 				TargetAttributes = {
 					FDF0EF131B5C7AB100F43490 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 944ESC63BS;
 					};
 					FDF0EF2C1B5C7AB100F43490 = {
 						CreatedOnToolsVersion = 6.4;
@@ -214,6 +263,7 @@
 				FDF0EF231B5C7AB100F43490 /* Main.storyboard in Resources */,
 				FDF0EF281B5C7AB100F43490 /* LaunchScreen.xib in Resources */,
 				FDF0EF401B5C7AF600F43490 /* OptionsBackGroundScreen.png in Resources */,
+				FDF0EF4B1B5CA45000F43490 /* AdventureBackGround.png in Resources */,
 				FDF0EF251B5C7AB100F43490 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,15 +277,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02C457ACACCC2A1D108854DB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A33B7992AB81D23A09AEE29 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Critic/Pods-Critic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FDF0EF101B5C7AB100F43490 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FDF0EF201B5C7AB100F43490 /* ViewController.m in Sources */,
+				FDF0EF491B5C850200F43490 /* AppCommunicate.m in Sources */,
 				FDF0EF431B5C7BB200F43490 /* OptionsViewController.m in Sources */,
 				FDF0EF1D1B5C7AB100F43490 /* AppDelegate.m in Sources */,
 				FDF0EF1A1B5C7AB100F43490 /* main.m in Sources */,
+				FDF0EF461B5C84A900F43490 /* AdventureViewController.m in Sources */,
+				FDE19C9F1B649B2D001F8378 /* CheckViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,21 +447,31 @@
 		};
 		FDF0EF381B5C7AB100F43490 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B946B9BAAE0CDCE11E5F2474 /* Pods-Critic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Critic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		FDF0EF391B5C7AB100F43490 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1FA51B25030BB86A938824C /* Pods-Critic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Critic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -432,6 +528,7 @@
 				FDF0EF391B5C7AB100F43490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDF0EF3A1B5C7AB100F43490 /* Build configuration list for PBXNativeTarget "CriticTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +537,7 @@
 				FDF0EF3C1B5C7AB100F43490 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
