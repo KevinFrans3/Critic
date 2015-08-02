@@ -11,23 +11,31 @@
 #import <CoreLocation/CoreLocation.h>
 
 
-@interface CheckViewController : UIViewController <UIApplicationDelegate,CLLocationManagerDelegate,MKMapViewDelegate,UITextFieldDelegate> {
+@interface CheckViewController : UIViewController <UIApplicationDelegate,CLLocationManagerDelegate,MKMapViewDelegate,UITextFieldDelegate, CLLocationManagerDelegate> {
     CLLocationManager *locationManager;
     IBOutlet MKMapView *mapView;
     NSNumber *destinationLongitude;
     NSNumber *destinationLatitude;
+    NSString *longitude;
+    NSString *latitude;
 }
-
+   
 
 @property (nonatomic,retain) IBOutlet MKMapView *mapView;
-
+@property (strong, nonatomic) CLLocationManager *locationManager;
 @end
 
-
 @implementation CheckViewController
+#define IS_OS_8_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.locationManager = [[CLLocationManager alloc] init];
+    self.locationManager.delegate = self;
+    if ([self.locationManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
+        [self.locationManager requestWhenInUseAuthorization];
+    }
+    
     [self.mapView setShowsUserLocation:YES];
     self.mapView.delegate = self;
     destinationLongitude = [[NSUserDefaults standardUserDefaults] objectForKey:@"longitude"];
@@ -77,6 +85,72 @@
     MKPointAnnotation*    annotation = [[MKPointAnnotation alloc] init];
     annotation.coordinate = destinationCoords;
     [self.mapView addAnnotation:annotation];
+    MKDirectionsRequest *request = [[MKDirectionsRequest alloc] init];
+    MKPlacemark *placemark = [[MKPlacemark alloc] initWithCoordinate:destinationCoords addressDictionary:nil];
+    MKMapItem *mapItem = [[MKMapItem alloc] initWithPlacemark:placemark];
+    [request setSource:[MKMapItem mapItemForCurrentLocation]];
+    [request setDestination:mapItem];
+    [request setTransportType:MKDirectionsTransportTypeAny];
+    [request setRequestsAlternateRoutes:YES];
+    MKDirections *directions = [[MKDirections alloc] initWithRequest:request];
+    [directions calculateDirectionsWithCompletionHandler:^(MKDirectionsResponse *response, NSError *error) {
+        if (!error) {
+            for (MKRoute *route in [response routes]) {
+                [self.mapView addOverlay:[route polyline] level:MKOverlayLevelAboveRoads]; // Draws the
+            }
+        }
+    }];
+}
+
+- (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay
+{
+    if ([overlay isKindOfClass:[MKPolyline class]]) {
+        MKPolylineRenderer *renderer = [[MKPolylineRenderer alloc] initWithOverlay:overlay];
+        [renderer setStrokeColor:[UIColor blueColor]];
+        [renderer setLineWidth:5.0];
+        return renderer;
+    }
+    return nil;
+}
+- (IBAction)checkInButtonPressed:(id)sender {
+
+    CLLocation *destinationLocation = [[CLLocation alloc] initWithLatitude:[destinationLatitude doubleValue] longitude:[destinationLongitude doubleValue] ];
+    CLLocation *currentLocation = [[CLLocation alloc] initWithLatitude:[latitude doubleValue] longitude:[longitude doubleValue]];
+    CLLocationDistance distance = [currentLocation distanceFromLocation:destinationLocation];
+    NSLog(@"Calculated Miles %@", [NSString stringWithFormat:@"%.1fmi",(distance/1609.344)]);
+    double distanceInMiles = distance/1609.344;
+    if (distanceInMiles < 0.3) {
+        NSLog(@"they are there give them da points");
+    }
+}
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
+    
+    CLLocation * currentLocation = [locations objectAtIndex:0];
+    
+    float flatitude =currentLocation.coordinate.latitude;
+    
+    float flongitude =currentLocation.coordinate.longitude;
+    
+    
+    if (latitude != NULL) {
+        
+    }
+    else {
+        latitude = [[NSString alloc]initWithFormat:@"%@",[[NSNumber numberWithFloat:flatitude] stringValue]];
+        
+        longitude = [[NSString alloc]initWithFormat:@"%@",[[NSNumber numberWithFloat:flongitude] stringValue]];
+    }
+    
+}
+
+
+- (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error {
+    NSLog(@"Location manager error: %@", error.localizedDescription);
+}
+
+- (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status {
+    [self.locationManager startUpdatingLocation];
 }
 
 @end
